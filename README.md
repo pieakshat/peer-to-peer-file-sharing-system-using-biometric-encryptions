@@ -30,4 +30,6 @@ The idea of this project is simple.
 
    [learn more about this project](https://docs.google.com/document/d/1qeNrZZ94fpos4fDs44NGCM_LcWzZRsbUXjIduBIDrgY/edit?usp=sharing)
 
+   [project demo](https://www.loom.com/share/3e8cd2164ee74b868a5e451bb8ac6535?sid=cbe73197-6851-4929-b46b-7493da998a36)
+
    
