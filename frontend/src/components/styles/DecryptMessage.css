@@ -1,0 +1,105 @@
+/* Container */
+.decrypt-message-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.decrypt-message-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Textareas */
+.decrypt-message-textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    color: #333333;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.decrypt-message-textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #ffffff;
+}
+
+/* Button */
+.decrypt-message-button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.decrypt-message-button:hover {
+    background-color: #0056b3;
+}
+
+.decrypt-message-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+/* Error Message */
+.decrypt-message-error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Decrypted Message Output */
+.decrypt-message-output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    color: #333333;
+    white-space: pre-wrap;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .decrypt-message-container {
+        padding: 15px;
+    }
+
+    .decrypt-message-title {
+        font-size: 20px;
+    }
+
+    .decrypt-message-textarea {
+        height: 80px;
+    }
+
+    .decrypt-message-button {
+        font-size: 14px;
+    }
+
+    .decrypt-message-output {
+        font-size: 13px;
+    }
+}

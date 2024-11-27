@@ -1,0 +1,85 @@
+/* General Container */
+.decrypt-download-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Title */
+.decrypt-download-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Textarea */
+.decrypt-download-textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    color: #333333;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.decrypt-download-textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #ffffff;
+}
+
+/* Button */
+.decrypt-download-button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.decrypt-download-button:hover {
+    background-color: #0056b3;
+}
+
+.decrypt-download-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+/* Error Message */
+.decrypt-download-error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .decrypt-download-container {
+        padding: 15px;
+    }
+
+    .decrypt-download-title {
+        font-size: 20px;
+    }
+
+    .decrypt-download-button {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,113 @@
+/* General Container */
+.encrypt-message-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.encrypt-message-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Textarea */
+.encrypt-message-textarea,
+.encrypt-message-output-textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    color: #333333;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.encrypt-message-textarea:focus,
+.encrypt-message-output-textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #ffffff;
+}
+
+/* Input */
+.encrypt-message-input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    color: #333333;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.encrypt-message-input:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #ffffff;
+}
+
+/* Button */
+.encrypt-message-button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.encrypt-message-button:hover {
+    background-color: #0056b3;
+}
+
+/* Output Section */
+.encrypt-message-output {
+    margin-top: 20px;
+}
+
+.encrypt-message-output-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555555;
+    margin-bottom: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .encrypt-message-container {
+        padding: 15px;
+    }
+
+    .encrypt-message-title {
+        font-size: 20px;
+    }
+
+    .encrypt-message-textarea,
+    .encrypt-message-output-textarea {
+        height: 80px;
+    }
+
+    .encrypt-message-button {
+        font-size: 14px;
+    }
+
+    .encrypt-message-output-title {
+        font-size: 16px;
+    }
+}
