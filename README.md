@@ -2,8 +2,8 @@ To start this project:
 
 1. git clone
 
-3. go to the backend folder and run: 
- ```python3 app.py```
+3. go to the backend folder and run:\n 
+ ```python3 app.py```\n
 ensure that you have all the python librarise installed
 this will start the server on port 5002
 
